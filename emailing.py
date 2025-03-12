@@ -2,8 +2,11 @@ import smtplib
 from email.message import EmailMessage
 import imghdr
 
+# Create a password for your email.(gmail or yahoo)
 SENDER   = ""
 PASSWORD = ""
+
+# Add a receiver email
 RECEIVER = ""
 
 def send_email(image_path):
